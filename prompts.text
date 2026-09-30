@@ -5,3 +5,5 @@ Create TC02.spec.ts. It should login and enable dark mode. Then it should visit 
 It will be there if launched in fullscreen mode
 
 put the locators in HomePage.ts
+
+Create TC03.spec.ts to verify the amount under Total Net Worth on Dashboard macthes the sums in My Accounts. Create a new page class named Accounts.ts. The currency signs should also match.

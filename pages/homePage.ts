@@ -7,6 +7,7 @@ export class HomePage {
     readonly dashboardLink: Locator
     readonly accountsLink: Locator
     readonly transferLink: Locator
+    readonly totalNetWorth: Locator
 
 
     constructor(page: Page) {
@@ -16,6 +17,7 @@ export class HomePage {
         this.dashboardLink = page.getByTestId('sidebar-link-dashboard')
         this.accountsLink = page.getByTestId('sidebar-link-accounts')
         this.transferLink = page.getByTestId('sidebar-link-transfer')
+        this.totalNetWorth = page.getByTestId('stat-card-net-worth-value')
     }    
 
 }
