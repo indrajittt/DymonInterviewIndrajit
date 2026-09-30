@@ -20,4 +20,7 @@ export class HomePage {
         this.totalNetWorth = page.getByTestId('stat-card-net-worth-value')
     }    
 
+    async openAccounts() {
+        await this.accountsLink.click()
+    }
 }
