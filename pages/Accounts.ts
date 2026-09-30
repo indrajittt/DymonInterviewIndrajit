@@ -35,7 +35,7 @@ export class Accounts {
     return this.getAccountRow(accountName).evaluateAll(rows => rows.map(row => {
       const cells = row.querySelectorAll('td');
       return {
-        name: cells[0]?.textContent?.trim() ?? '',
+        name: cells[0]?.querySelector('p')?.textContent?.trim() ?? '',
         type: cells[1]?.textContent?.trim() ?? '',
         balance: cells[2]?.textContent?.trim() ?? '',
       };
