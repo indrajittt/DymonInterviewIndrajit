@@ -1,0 +1,7 @@
+After logging in, it should click on every sidebar link in HomePage and verify the title of the page. The titles of the pages should be maintained in a separate test data file
+
+Create TC02.spec.ts. It should login and enable dark mode. Then it should visit each sidebar link and verify dark moe is still enabled. Verification should be done using element properties only, no visual verification.
+
+It will be there if launched in fullscreen mode
+
+put the locators in HomePage.ts
